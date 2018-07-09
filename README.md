@@ -1,31 +1,19 @@
-### Demo (plnkr)
-https://next.plnkr.co/plunk/w1LkTfT816o18WFr
-
-### Camelcase Redux training
-1 - Create a base react app, with latest 'redux' and 'react-redux' libraries installed.
-
-2 - Create two reducers, one for list of books, and the other for the selected book.
-
-3 - Combine the two reducers via 'combineReducers' method.
-
-4 - Create store inside index.js using return from 'combineReducers', and inject it inside react components via 'Provider' component.
-
-5 - Create book list component, with dummy book list array to display.
-
-6 - Create book list item component.
-
-7 - Create book detail component, with dummy selected book to display.
-
-8 - Create app component that contains all the created components, use it inside index.js .
-
-9 - Replace the dummy book list array by the one coming from Redux state by connecting the component to Redux.
-
-10 - Replace the dummy selected book by the one coming from Redux state by connecting the component to Redux.
-
-11 - Create an action creator to return action responsible for selecting book.
-
-12 - As book list component is already connected to Redux, Add this action, to be able to trigger it.
-
-13 - Update selected book reducer to check for that action type, and updated selected book based on sent data.
-# Front-End-Libraries-Projects---Build-a-Random-Quote-Machine-Learn-freeCodeCamp
-# Front-End-Libraries-Projects---Build-a-Random-Quote-Machine-Learn-freeCodeCamp
+### Demo (codepen)
+https://codepen.io/Moataz-Mohammady/full/RBbJLe/
+Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/qRZeGZ.
+Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
+You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+User Story #1: I can see a wrapper element with a corresponding id="quote-box".
+User Story #2: Within #quote-box, I can see an element with a corresponding id="text".
+User Story #3: Within #quote-box, I can see an element with a corresponding id="author".
+User Story #4: Within #quote-box, I can see a clickable element with a corresponding id="new-quote".
+User Story #5: Within #quote-box, I can see a clickable element with a corresponding id="tweet-quote".
+User Story #6: On first load, my quote machine displays a random quote in the element with id="text".
+User Story #7: On first load, my quote machine displays the random quote's author in the element with id="author".
+User Story #8: When the #new-quote button is clicked, my quote machine should fetch a new quote and display it in the #text element.
+User Story #9: My quote machine should fetch the new quote's author when the #new-quote button is clicked and display it in the #author element.
+User Story #10: I can tweet the current quote by clicking on the #tweet-quote a element. This a element should include the "twitter.com/intent/tweet" path in it's href attribute to tweet the current quote.
+User Story #11: The #quote-box wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
+You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js
+Once you're done, submit the URL to your working project with all its tests passing.
+Remember to use the Read-Search-Ask method if you get stuck.
