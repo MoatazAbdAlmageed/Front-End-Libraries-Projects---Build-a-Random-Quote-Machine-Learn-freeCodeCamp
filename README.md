@@ -1,8 +1,7 @@
-<div>
 
-![alt text]( https://d33wubrfki0l68.cloudfront.net/399edfbd56860a94d3c5654ba51019817bf01495/d8901/img/freecodecamp.png "freecodecamp")
+![alt text](https://i2.wp.com/www.samuelpath.com/wp-content/uploads/2017/03/freecodecamp.jpeg?resize=525%2C175"freecodecamp")
 
-</div>
+
 ### Demo (codepen)
 https://codepen.io/Moataz-Mohammady/full/RBbJLe/
 
