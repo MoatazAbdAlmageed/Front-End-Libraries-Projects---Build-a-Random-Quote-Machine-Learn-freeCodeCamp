@@ -6,9 +6,3 @@
 ### Demo (codepen)
 https://codepen.io/Moataz-Mohammady/full/RBbJLe/
 
-
-img {
-  display:block;
-  margin: 0 auto;
-}
-
